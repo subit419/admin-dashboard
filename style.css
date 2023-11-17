@@ -15,7 +15,9 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
 }
 
 .side-menu {
@@ -75,6 +77,60 @@
 .header-top {
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+}
+.search-bar {
+    padding: 17px 0px 0px 30px;
+    display: flex;
+}
+
+.search-bar svg {
+    height: 1.5em;
+    width: 1.5em;
+    fill: var(--amber);
+    margin-right: 1em;
+}
+
+.search-input {
+    border-radius: 15px;
+    border: none;
+    background-color: var(--amber);
+    height: 25px;
+    max-width: 470px;
+    width: 45vw;
+    padding-left: 10px;
+}
+
+.header-top-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20vw;
+    max-width: 196.2px;
+    min-width: 156.2px;
+    margin-right: 25px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.header-top-right svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--amber);
+    margin-right: 1em;
+}
+
+.profile-pic-small {
+    width: 40px;
+    height: 40px;
+    border-radius: 51%;
+    outline-color: var(--yellow);
+    margin-right: 1em;
+}
+
+.profile-name-small {
+    color: var(--amber);
+    font-weight: bold;
 }
 
 .header-bottom {

@@ -291,7 +291,7 @@ hr {
 }
 
 .clickable:hover {
-    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.1);
 }
 
 .header-button:hover {

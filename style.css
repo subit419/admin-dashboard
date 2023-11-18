@@ -224,6 +224,7 @@
     width: 45%;
     border-radius: 10px;
     box-shadow: 5px 5px 2px var(--dark);
+    background-image: -webkit-linear-gradient(left, var(--amber), var(--amber) 2%, transparent 2%, transparent 100%)
 }
 
 .actions {
@@ -276,6 +277,8 @@ hr {
 .trending-profile {
     display: flex;
     align-items: center;
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
 }
 
 .trending-profile .username {
@@ -285,4 +288,18 @@ hr {
 
 .profile-project {
     font-size: .8em;
+}
+
+.clickable:hover {
+    -webkit-transform: scale(1.2);
+}
+
+.header-button:hover {
+    background-color: var(--dark);
+
+}
+
+.project .title:hover {
+    -webkit-transform: scale(1.1);
+    text-decoration-line: underline;
 }

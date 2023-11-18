@@ -7,6 +7,7 @@
 }
 
 * {
+    color: var(--amber);
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -24,7 +25,6 @@
 .side-menu {
     grid-area: 1/1/3/1;
     background-color: var(--dark);
-    color: var(--amber);
     padding: 15px 20px 20px 15px;
     display: grid;
     grid-template-columns: 1fr;
@@ -132,7 +132,6 @@
 }
 
 .profile-name-small {
-    color: var(--amber);
     font-weight: bold;
 }
 
@@ -148,7 +147,6 @@
 }
 .profile-greeting {
     font-size: 0.9em;
-    color: var(--amber);
     font-weight: bold;
 }
 
@@ -161,7 +159,6 @@
 }
 
 .profile-name-big {
-    color: var(--amber);
     font-weight: bold;
     font-size: 17pt;
     margin-bottom: 0.5em;
@@ -175,7 +172,6 @@
 .new-post-section button {
     border-radius: 20px;
     background-color: var(--darkest);
-    color: var(--amber);
     height: 5vh;
     width: 8vw;
     font-weight: bold;
@@ -205,10 +201,6 @@
 .project-section {
     margin-top: 15px;
     grid-area:1/1/3/2;
-}
-
-.actions span {
-    color: var(--amber);
 }
 
 .project-section h3 {
@@ -242,7 +234,6 @@
 }
 
 .project-text { 
-    color: var(--amber);
     font-size: .8em;
 }
 
